@@ -11,11 +11,17 @@ The goal of this project is to predict the insurance charges for individuals bas
 The dataset used in this project contains information about individuals and their insurance charges. The key features in the dataset are:
 
 **Age:** The age of the individual.
+
 **Sex:**  The gender of the individual (male/female).
+
 **BMI:**  Body Mass Index, a measure of body fat based on height and weight.
+
 **Children:**  The number of children/dependents covered by the insurance.
+
 **Smoker:**  Whether the individual is a smoker (yes/no).
+
 **Region:**  The residential region of the individual in the US (southeast, southwest, northeast, northwest).
+
 **Charges:**  The insurance charges billed to the individual.
 
 **Data Analysis**
@@ -48,7 +54,9 @@ Analyzed how the insurance charges are spread.
 To prepare the data for modeling, we encoded the categorical features into numerical values:
 
 **Sex:** male (0), female (1)
+
 **Smoker:** yes (0), no (1)
+
 **Region:** southeast (0), southwest (1), northeast (2), northwest (3)
 
 **Model Training**
